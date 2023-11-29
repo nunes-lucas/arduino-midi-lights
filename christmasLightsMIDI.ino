@@ -21,11 +21,11 @@
 #include"notes_bits.h"
 
 //Pin connected to latch pin (ST_CP) of 74HC595
-const int latchPin = 9;
+const int latchPin = 12; //9 on arduino, 12 on ESP8266 (D6)
 //Pin connected to clock pin (SH_CP) of 74HC595
-const int clockPin = 8;
+const int clockPin = 14; //8 on arduino, 12 on ESP8266 (D5)
 //Pin connected to Data in (DS) of 74HC595
-const int dataPin = 10;
+const int dataPin = 13; //10 on arduino, 12 on ESP8266 (D7)
 
 int pitch, cmd, velocity;
 int light;

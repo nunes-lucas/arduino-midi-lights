@@ -17,6 +17,30 @@
 
 int getBit(int p) {
   switch(p) {
+    case 24: return 0; //note C0
+    case 26: return 1; //D0 
+    case 28: return 2; //E0
+    case 29: return 3; //F0
+    case 31: return 4; //G0
+    case 33: return 5; //A0
+    case 35: return 6; //B0
+
+    case 36: return 7; //note C1
+    case 38: return 8; //D1
+    case 40: return 9; //E1
+    case 41: return 10; //F1
+    case 43: return 11; //G1
+    case 45: return 12; //A1
+    case 47: return 13; //B1
+
+    case 48: return 14; //note C2
+    case 50: return 15; //D2
+    case 52: return 16; //E2
+    case 53: return 17; //F2
+    case 55: return 18; //G2
+    case 57: return 19; //A2
+    case 59: return 20; //B2
+    
     case 60: return 0; //note C3 (middle C)
     case 62: return 1; //D3
     case 64: return 2; //E3
